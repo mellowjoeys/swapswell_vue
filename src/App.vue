@@ -2,7 +2,9 @@
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <router-link class="navbar-brand" to="/">Swapswell</router-link>
+      <router-link class="navbar-brand" to="/">
+        <img src="/images/logo3.png" max-width="200%" max-height="200%" alt="Logo" style="width:70px;height:70px">
+      </router-link>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,6 +34,11 @@
       
 
         </ul>
+
+
+
+
+
         
 
         <form class="form-inline my-2 my-lg-0">
