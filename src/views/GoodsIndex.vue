@@ -1,8 +1,6 @@
 <template>
   <div class="goods-index">
-    <h1>
-      <img src="/images/logo.png" max-width="700%" max-height="700%" alt="Fruit" style="width:200px;height:200px">
-    </h1>
+   
     <div v-for="good in goods">
       <h2>{{ good.name }}</h2>
       <router-link v-bind:to="'/goods/' + good.id">

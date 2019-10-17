@@ -15,7 +15,7 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    {path: '/', name: 'home', component: GoodsIndex },
+    {path: '/', name: 'home', component: Home },
     {path: '/goods', name: 'goods-index', component: GoodsIndex },
     {path: '/goods/new', name: 'goods-new', component: GoodsNew },
     {path: '/goods/:id', name: 'goods-show', component: GoodsShow },

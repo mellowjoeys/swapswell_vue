@@ -50,7 +50,7 @@
 
     <router-view/>
 
-  </div>
+  </div> <!-- end of ID app -->
 </template>
 
 <style>
