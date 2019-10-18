@@ -15,12 +15,12 @@
       </div>
 
       <div>
-        Category: <input type="text" v-model="newGoodcategory">
+        Category: <input type="text" v-model="newGoodCategory">
       </div>
 
 
       <div>
-        Status: <input type="text" v-model="newGoodstatus">
+        Status: <input type="text" v-model="newGoodStatus">
       </div>
 
       <div>
@@ -47,7 +47,7 @@ export default {
       newGoodDescription: "",
       newGoodCategory: "",
       newGoodStatus: "",
-      newGoodUserId: "",
+      newGoodUserId: ""
     
     };
   },
@@ -59,7 +59,7 @@ export default {
         description: this.newGoodDescription,
         category: this.newGoodCategory,
         status: this.newGoodStatus,
-        user_id: this.newGoodUserId,
+        user_id: this.newGoodUserId
 
       };
       axios
