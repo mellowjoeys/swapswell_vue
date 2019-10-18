@@ -8,6 +8,7 @@ import GoodsEdit from './views/GoodsEdit.vue';
 import Signup from "./views/Signup.vue";
 import Login from "./views/Login.vue";
 import Logout from "./views/Logout.vue";
+import AddGood from "./views/AddGood.vue";
 
 Vue.use(Router);
 
@@ -22,6 +23,8 @@ export default new Router({
     {path: '/goods/:id/edit', name: 'goods-edit', component: GoodsEdit },
     {path: "/signup", name: "signup", component: Signup },
     {path: "/login", name: "login", component: Login },
-    {path: "/logout", name: "logout", component: Logout }
+    {path: "/logout", name: "logout", component: Logout },
+    {path: "/addgood", name: "addgood", component: AddGood }
+
   ]
 });

@@ -6,13 +6,10 @@
         <ul>
           <li class="text-danger" v-for="error in errors">{{ error }}</li>
         </ul>
+  
         <div class="form-group">
-          <label>Name:</label> 
-          <input type="text" class="form-control" v-model="name">
-        </div>
-        <div class="form-group">
-          <label>Email:</label>
-          <input type="email" class="form-control" v-model="email">
+          <label>Username:</label>
+          <input type="username" class="form-control" v-model="username">
         </div>
         <div class="form-group">
           <label>Password:</label>
@@ -34,7 +31,7 @@ export default {
   data: function() {
     return {
       name: "",
-      email: "",
+      username: "",
       password: "",
       passwordConfirmation: "",
       errors: []
@@ -44,7 +41,7 @@ export default {
     submit: function() {
       var params = {
         name: this.name,
-        email: this.email,
+        username: this.username,
         password: this.password,
         password_confirmation: this.passwordConfirmation
       };
