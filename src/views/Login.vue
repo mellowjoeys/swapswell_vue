@@ -8,7 +8,7 @@
         </ul>
         <div class="form-group">
           <label>Username:</label>
-          <input type="username" class="form-control" v-model="username">
+          <input type="text" class="form-control" v-model="username">
         </div>
         <div class="form-group">
           <label>Password:</label>
@@ -39,6 +39,7 @@ export default {
       axios
         .post("/api/sessions", params)
         .then(response => {
+          console.log("begin response haha");
           axios.defaults.headers.common["Authorization"] = "Bearer " + response.data.jwt;
           localStorage.setItem("jwt", response.data.jwt);
           this.$router.push("/");

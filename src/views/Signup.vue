@@ -34,7 +34,6 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      name: "",
       username: "",
       password: "",
       passwordConfirmation: "",
@@ -45,7 +44,6 @@ export default {
   methods: {
     submit: function() {
       var params = {
-        name: this.name,
         username: this.username,
         password: this.password,
         password_confirmation: this.passwordConfirmation,
