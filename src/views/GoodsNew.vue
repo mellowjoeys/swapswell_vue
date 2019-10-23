@@ -24,6 +24,10 @@
       </div>
 
       <div>
+        Image URL: <input type="text" v-model="newGoodImageUrl">
+      </div>
+
+      <div>
         User Id: <input type="text" v-model="newGoodUserId">
       </div>
 
@@ -47,6 +51,7 @@ export default {
       newGoodDescription: "",
       newGoodCategory: "",
       newGoodStatus: "",
+      newGoodImageUrl: "",
       newGoodUserId: ""
     
     };
@@ -59,6 +64,7 @@ export default {
         description: this.newGoodDescription,
         category: this.newGoodCategory,
         status: this.newGoodStatus,
+        image_url: this.newGoodImageUrl,
         user_id: this.newGoodUserId
 
       };
@@ -74,3 +80,6 @@ export default {
   }
 };
 </script>
+
+
+Photo.create(image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS47TQVeNG7GPwgY0A1IKPWOAC9UdO6oJ2llIX_ygueVfDcyPGWKA&s", good_id: 1)

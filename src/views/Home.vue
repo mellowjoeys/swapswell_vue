@@ -15,7 +15,7 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <img src="https://images-na.ssl-images-amazon.com/images/I/51tBuAmAkdL._SY300_QL70_.jpg" class="d-block mx-auto" alt="Toy"  style="width:400px;height:360px" />
+          <img src="https://s1.cdn.autoevolution.com/images/news/red-ferrari-488-pista-with-yellow-stripes-shows-peacock-spec-135067_1.jpg" class="d-block mx-auto" alt="Car"  style="width:550px;height:360px" />
         </div>
         <div class="carousel-item">
           <img src="https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2017/07/apples-700x350.png" class="d-block mx-auto" max-width="700%" max-height="700%" alt="Fruit" style="width:640px;height:360px">

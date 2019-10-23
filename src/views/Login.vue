@@ -8,13 +8,13 @@
         </ul>
         <div class="form-group">
           <label>Username:</label>
-          <input type="username" class="form-control" v-model="username">
+          <input type="text" class="form-control" v-model="username">
         </div>
         <div class="form-group">
           <label>Password:</label>
           <input type="password" class="form-control" v-model="password">
         </div>
-        <input type="submit" class="btn btn-primary" value="Submit">
+        <input type="text" class="btn btn-primary" value="Submit">
       </form>
     </div>
   </div>
